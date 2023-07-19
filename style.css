@@ -8,7 +8,6 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-/* Nav starts  */
 .nav-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -57,8 +56,7 @@ body {
 .fa-brands {
   margin-left: 15px;
 }
-/* Nav ends */
-/* banner section start */
+
 .banner-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -80,7 +78,6 @@ body {
 }
 .banner-image img {
   width: 100%;
-  /* height: 100%; */
   object-fit: cover;
 }
 .banner-info h2 {
@@ -114,8 +111,7 @@ body {
   color: white;
   margin-left: 10px;
 }
-/* banner section end */
-/* we are gamer section start  */
+
 .gamer-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -166,8 +162,7 @@ body {
   font-weight: 400;
   color: #534c64;
 }
-/* we are gamer section end  */
-/* online game part start */
+
 .online-game-container {
   max-width: 1400px;
   min-height: 400px;
@@ -199,7 +194,7 @@ grid-template-columns: repeat(4, 1fr);
 .class-2 {
   position: relative;
   visibility: none;
-  /* display: inline-block; */
+
 }
 .class-2 p {
   color: #ff42a5;
@@ -242,8 +237,7 @@ grid-template-columns: repeat(4, 1fr);
   font-size: 30px;
 }
 
-/*  online game part end  */
-/* Instant Playing section starts */
+
 .instant-playing-container {
   max-width: 1400px;
   display: flex;
@@ -286,9 +280,7 @@ grid-template-columns: repeat(4, 1fr);
   width: 50%;
 }
 
-/* Instant Playing section Ends */
 
-/* Instant Playing section part-2 starts */
 .instant-playing-container1 {
   max-width: 1400px;
   display: flex;
@@ -331,9 +323,7 @@ grid-template-columns: repeat(4, 1fr);
   width: 50%;
 }
 
-/* Instant Playing section part-2 Ends */
 
-/* Career section start  */
 .career-container {
   max-width: 1400px;
   display: flex;
@@ -370,7 +360,7 @@ grid-template-columns: repeat(4, 1fr);
   text-align: left;
   font-size: 20px;
   font-weight: 400;
-  /* margin-left:100px ; */
+  
 }
 .country-name {
   text-align: right;
@@ -402,7 +392,7 @@ gap: 20px;
     width: 30px;
 }
 .btn-game-type {
-    /* width: 280px; */
+  
   padding: 10px 05px;
   border-radius: 48px;
   border: none;
@@ -420,8 +410,7 @@ gap: 20px;
   cursor: pointer;
 }
 
-/* Games type end */
-/* footer starts */
+
 .footer-container {
   max-width: 1400px;
   min-height: 500px;
@@ -514,6 +503,5 @@ gap: 20px;
   color: white;
   font-size: 16px;
   margin-bottom: 50px; 
-   /* display: inline-block;    */
+ 
 }
-/* footer end */

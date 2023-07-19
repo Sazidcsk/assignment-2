@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     .nav-container {
       flex-direction: column;
       width: 100%;
@@ -23,8 +23,6 @@
     
 }
 
-  /* Nav responsive ends  */
-  /* Banner container start */
   .banner-container{
 
     display: block;
@@ -39,9 +37,7 @@
     width: 100%;
   }
 
-  /* banner end */
-
-  /* gamer section starts */
+ 
   .gamer-container{
     display: block;
   }
@@ -54,16 +50,13 @@
 
     width: 100%;
   }
-/* gamer section ends */
-  /* online game part start */
+
   .game-media {
     display: grid;
   grid-template-columns: repeat(1, 1fr);
     
   }
-    /* online game part ends */
    
-/* Instant Playing section starts */
 
 .instant-playing-container {
     display: block;
@@ -75,8 +68,7 @@
   .instant-playing-img {
     width: 100%;
   }
-  /* Instant Playing section Ends */
-/* Instant Playing section part-2 starts */
+ 
 .instant-playing-container1 {
     display: block;
   }
@@ -87,9 +79,7 @@
   }
   .instant-playing-img1 {
     width: 100%;}
-    /* Instant Playing section part-2 Ends */
-
-/* Career section start  */
+  
 .career-container {
   display: block;
   }
@@ -106,4 +96,7 @@
     text-align: center;
   }
 }
+
+
+
 
